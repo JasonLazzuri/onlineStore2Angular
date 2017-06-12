@@ -1,0 +1,9 @@
+import { Listing } from './listing.model';
+
+export const LISTINGS: Listing[] = [
+ new Listing("Housing", "Come In Before There Gone!! One Month FREE!", "Call the Notch8 leasing office with any questions you may have directly at 253-536-2707. At Notch8 Apartments we take pride in being a NOTCH above the rest. With close proximity to shopping, dining, entertainment as well as transportation you have everything within arms reach. Our newly renovated community gives you the industrial feel you get of living downtown at a cheaper price. Leaving you satisfied with the nicest amenities and the most up to date finishes. Comforts like walk-in closets, inviting wood burning fireplaces and private decks overlooking the park-like grounds, make Notch8 Apartments the home you enjoy coming home to after a busy day. ", "Tacoma", "$1499/month",1 ),
+ new Listing("For Sale", "iPhone 6S Plus 64gb Gold Like New", "I am selling my iphone 6s plus 64gb gold color. Is like new, has no scratches and is with protective glass and sheath . I sell it at 480 dollars, and if you are interested I can show you at the tacoma mall. The iphone is unlocked for use with any company and has no apple ID locks. Is totally free.", "Tacoma", "$480",2),
+ new Listing("Services", "Detailing Auto care, Mobile Detailing", "Hi, At Stephens Pressure Wash & Detail we specialize in automotive detailing of all vehicles car, Trucks, Rvs, Boats, Motorcycles, off-road vehicles, we do it all and we do the job right. Contact me for a free quote. Veteran Owned And Operated!Sean","Tacoma", "$149",3),
+ new Listing("For Sale", "iPhone 6S Plus 64gb Gold Like New", "I am selling my iphone 6s plus 64gb gold color. Is like new, has no scratches and is with protective glass and sheath . I sell it at 480 dollars, and if you are interested I can show you at the tacoma mall. The iphone is unlocked for use with any company and has no apple ID locks. Is totally free.", "Tacoma", "$480",4),
+
+];
