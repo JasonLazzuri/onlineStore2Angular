@@ -3,6 +3,9 @@ import { Listing } from '../listing.model';
 import { Router } from '@angular/router';
 import { ListingService } from '../listing.service';
 
+import { FirebaseListObservable } from 'angularfire2/database';
+
+
 @Component({
   selector: 'app-listings',
   templateUrl: './listings.component.html',
@@ -11,11 +14,11 @@ import { ListingService } from '../listing.service';
 
 })
 export class ListingsComponent implements OnInit {
+  listings: FirebaseListObservable<any[]>;
+
 
   constructor(private router: Router, private listingService: ListingService){}
 
-
-  listings:Listing[];
 
   goToDetailPage(clickedListing: Listing) {
     this.router.navigate(['listings', clickedListing.id]);

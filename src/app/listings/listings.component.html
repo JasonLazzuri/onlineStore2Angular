@@ -1,7 +1,7 @@
 <h2>Marketplace</h2>
 
-<div *ngFor="let listing of listings" (click)="goToDetailPage(listing)" class="panel panel-default">
+<div *ngFor="let listing of listings | async" (click)="goToDetailPage(listing)" class="panel panel-default">
   <div class="panel-body">
-    <h3><em>{{listing.category}}</em> For Sale: {{listing.title}}</h3>
+    <h3><em>{{listing.category}}: </em> {{listing.title}}</h3>
   </div>
 </div>
